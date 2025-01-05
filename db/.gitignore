@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Operating system files
+.DS_Store
+
+# npm package lock file (optional, if using npm)
+package-lock.json
+
+# Build output
+/dist/
