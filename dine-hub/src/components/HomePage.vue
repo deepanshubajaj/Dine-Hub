@@ -62,11 +62,13 @@ export default {
         // Method to load data
         async loadData() {
             let user = localStorage.getItem('user-info');
-            this.name = JSON.parse(user).name;
 
             if (!user) {
                 this.$router.push({ name: 'SignUp' });
+                return;
             }
+
+            this.name = JSON.parse(user).name;
 
             let result = await axios.get("http://localhost:3000/cafes");
             console.warn(result);
@@ -81,40 +83,40 @@ export default {
 </script>
 
 <style>
-
 /* Centering the table container */
 .table-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    padding: 10px 20px; 
-    margin-top: 2px; 
+    padding: 10px 20px;
+    margin-top: 2px;
 }
 
 /* Table styling */
 table {
-    width: 80%; 
+    width: 80%;
     border-collapse: collapse;
-    border: 8px double #000; 
+    border: 8px double #000;
 }
 
-th, td {
-    border: 5px double #000; 
+th,
+td {
+    border: 5px double #000;
     padding: 10px;
     text-align: center;
 }
 
 /* Header styling */
 th {
-    background-color: sandybrown; 
-    color: rgb(0, 0, 0); 
+    background-color: sandybrown;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 /* Body cell text color */
 td {
-    color: black; 
+    color: black;
 }
 
 /* Alternating row colors */
@@ -123,24 +125,25 @@ td {
 }
 
 .odd-row {
-    background-color: lightgoldenrodyellow; 
+    background-color: lightgoldenrodyellow;
 }
 
 /* Table row hover effect */
 tr:hover {
-    background-color: lightgray; 
+    background-color: lightgray;
 }
 
 /* Reduced space between heading and table */
 h1 {
     margin: 0;
     padding-top: 10px;
-    padding-bottom: 0px; 
-    text-align: center; 
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 /* Styling for buttons (Update and Delete) */
-button, a.router-link {
+button,
+a.router-link {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
@@ -154,41 +157,42 @@ button, a.router-link {
 
 /* Style for Update button */
 button {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
     border: none;
 }
 
 /* Style for Delete button */
 button.delete {
-    background-color: #f44336; 
+    background-color: #f44336;
     color: white;
     border: none;
 }
 
 /* Hover effect for both buttons */
-button:hover, a.router-link:hover {
+button:hover,
+a.router-link:hover {
     opacity: 0.8;
     transform: scale(1.1);
 }
 
 /* Adding specific styles for the Update and Delete buttons */
 button.delete {
-    background-color: #f44336; 
+    background-color: #f44336;
     color: white;
 }
 
 button:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
 
 button.delete:hover {
-    background-color: #d32f2f; 
+    background-color: #d32f2f;
 }
 
 /* Styling router-link (Update link) */
 a.router-link {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
     border: none;
     text-decoration: none;
@@ -201,5 +205,4 @@ a.router-link:hover {
     opacity: 0.8;
     transform: scale(1.1);
 }
-
 </style>
