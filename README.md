@@ -1,7 +1,7 @@
 <h1 align="center">🍽️ Dine-Hub - Cafe Management Web App</h1>
 
 <p align="center">
-  <a href="https://dine-hub-web-app.vercel.app/"><strong>Live Demo</strong></a>
+  <a href="https://dine-hub-vercel-release.vercel.app/"><strong>Live Demo</strong></a>
 </p>
 
 **Dine-Hub** is a Vue 3-based web application that simplifies cafe management. It offers secure authentication and full CRUD functionality, allowing users to add, view, update, and delete cafe records in a clean and intuitive interface.
