@@ -154,7 +154,7 @@ Check out the demo of the working app below:
 ## 🤝 Contributing
 
 Thank you for your interest in contributing to this project!  
-We welcome contributions from the community.
+I welcome contributions from the community.
 
 - You are free to use, modify, and redistribute this code under the terms of the MIT License.
 - If you'd like to contribute, please **open an issue** or **submit a pull request**.
