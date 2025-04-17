@@ -154,18 +154,20 @@ Check out the demo of the working app below:
 ## 🤝 Contributing
 
 Thank you for your interest in contributing to this project!  
-We welcome contributions, but please note:
+We welcome contributions from the community.
 
-- **Commercial use, redistribution, or modification** of the code is **not permitted** without prior written permission from the author.
-- All contributions should be made with respect to the **educational and personal reference purposes** of this project.
-- If you'd like to contribute, please **open an issue** or **submit a pull request**. Contributions will be reviewed by the author — **Deepanshu Bajaj**.
+- You are free to use, modify, and redistribute this code under the terms of the MIT License.
+- If you'd like to contribute, please **open an issue** or **submit a pull request**.
+- All contributions will be reviewed and approved by the author — **Deepanshu Bajaj**.
 
 ---
 
 ## 📃 License
 
-This project is licensed for **Educational, Learning, and Personal Reference Use Only**.  
-**Commercial use, redistribution, or modification is strictly prohibited** without prior permission.
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use this project for personal, educational, or commercial purposes — just make sure to provide proper attribution.
 
-📄 [View Full License](./LICENSE)
+> **Clarification:** Commercial use includes, but is not limited to, use in products,  
+> services, or activities intended to generate revenue, directly or indirectly.
+
 
