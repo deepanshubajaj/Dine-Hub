@@ -55,7 +55,7 @@ Clone this repository to your local machine:
     json-server --watch db.json  # For local development
 ```
 ```bash
-    json-server --watch db.json --port 3000      # For production
+    json-server --watch db.json --port 3000  # For production
 ```
 
 ---
