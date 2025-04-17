@@ -127,7 +127,7 @@ Clone this repository to your local machine:
 
 ## 📱 Live Demo
 
-- 🌐 [Dine Hub App Live](https://dine-hub-web-app.vercel.app/)
+- 🌐 [Dine Hub App Live](https://dine-hub-vercel-release.vercel.app/)
 
 ---
 
